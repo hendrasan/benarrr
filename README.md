@@ -6,7 +6,7 @@ This is a project to convert Figma design from [https://shaynakit.com/details/be
 
 This project is strictly focusing on static HTML and Tailwind CSS. No JavaScript. There are several functionalities in the website that needs JavaScript to work, such as making hamburger menu works on mobile in mobile, making the video player and video chooser works, also adding transition and animation along with CSS. They can all be implemented with further development.
 
-Also, in real projects, we would probably use either React.js/Vue.js/Next.js/Nuxt.js/Astro/Laravel/etc and use their tools and bundlers to make development easier.
+Also, in real projects, we would probably use either React.js/Vue.js/Next.js/Nuxt.js/Astro/Laravel/etc and use their tools and bundlers to make development easier, such as using components to reduce copy pasting codes whenever some CSS changes are needed.
 
 ## Development
 
