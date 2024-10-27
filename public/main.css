@@ -657,6 +657,10 @@ html {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
@@ -709,6 +713,10 @@ html {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -896,6 +904,10 @@ html {
   padding: 30px;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1052,6 +1064,15 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:-mx-4 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:basis-\[30\%\] {
     flex-basis: 30%;
   }
@@ -1060,12 +1081,24 @@ html {
     flex-direction: row;
   }
 
+  .md\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
   .md\:items-start {
     align-items: flex-start;
   }
 
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:gap-18 {
+    gap: 70px;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
   }
 
   .md\:text-left {
@@ -1094,6 +1127,11 @@ html {
 
   .lg\:z-20 {
     z-index: 20;
+  }
+
+  .lg\:-mx-4 {
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 
   .lg\:mt-0 {
@@ -1142,6 +1180,14 @@ html {
 
   .lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .lg\:gap-18 {
+    gap: 70px;
+  }
+
+  .lg\:p-0 {
+    padding: 0px;
   }
 
   .lg\:py-7\.5 {
